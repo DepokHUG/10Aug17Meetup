@@ -1,0 +1,15 @@
+name:                MeetupDayOne
+version:             0.1.0.0
+license:             BSD3
+license-file:        LICENSE
+author:              DepokHUG
+maintainer:          andika.riyan@gmail.com
+build-type:          Simple
+extra-source-files:  ChangeLog.md
+cabal-version:       >=1.10
+
+executable MeetupDayOne
+  main-is:             Main.hs
+  build-depends:       base >=4.9 && <4.10
+  hs-source-dirs:      src
+  default-language:    Haskell2010
